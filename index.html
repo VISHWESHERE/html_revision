@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TAGS</title>
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: blanchedalmond;
+            padding: 20px 20px;
+        }
+        .menu{
+            display: flex;
+            list-style: none;
+            gap: 100px;
+        }
+    </style>
+</head>
+<body style="font-family: sans-serif;">
+    <!-- tags in the html have attributes and corresponding values-->
+    <!-- tags in the html have opening tag and closing tag, some of the tags are self closing tags. -->
+    <!-- Heading tags are used to write headings, there are 6 heading tags  -->
+    <h1>HTML TUTORIAL BY VISHWESHWAR REDDY</h1> 
+    <!-- this below is a breakline tag which is used to skip that line and go on the next line. It is a self closing tag.-->
+    <br>
+    <h2>Heading Tags</h2>
+    <!-- this below line is horizontal line tag which gives a horizontal line on the screen usually used to seperate the sections. It is a self closing tag.-->
+    <hr>
+    <h1>h1 heading</h1>
+    <h2>h2 heading</h2>
+    <h3>h3 heading</h3>
+    <h4>h4 heading</h4>
+    <h5>h5 heading</h5>
+    <h6>h6 heading</h6>
+    <br>
+    <h2>Paragraph Tag</h2>
+    <hr>
+    <!-- This below tag is called paragraph tag which is used to display the inforamtion as paragraph-->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa dolores eum error, enim ratione laborum esse, laboriosam voluptatum illum harum repellat quia a iusto. Consequuntur accusamus doloribus repudiandae libero nesciunt? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem aut similique vero nam illo officia ad sequi accusamus harum unde tenetur ipsa obcaecati dolores eum omnis dignissimos magni, facere dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse porro facilis officia ex, accusamus quas blanditiis, minus asperiores, aliquid nisi ad! Molestias unde ex quidem vel ipsum cupiditate fugiat autem!</p>
+    <br>
+    <h2>List tags</h2>
+    <hr>
+    <p>There are two types of lists they are unordered list and ordered list</p>
+    <h3>Unordered list</h3>
+    <!-- below tags are called list tags, there are two types of list tags one is ordered list and another is unordered list. To make ordered lists we have to use ol tag and to represent each item in the list we have to use li tag, they are self closing tags. To make unordered list u should replace the ol with ul. -->
+    <ul style="list-style-type:disc;">
+        <li>milk</li>
+        <li>coffee</li>
+        <li>sugar</li>
+    </ul>
+    <ul style="list-style-type: circle;">
+        <li>milk</li>
+        <li>coffee</li>
+        <li>sugar</li>
+    </ul>
+    <ul style="list-style-type: square;">
+        <li>milk</li>
+        <li>coffee</li>
+        <li>sugar</li>
+    </ul>
+    <ul style="list-style-type: none;">
+        <li>milk</li>
+        <li>coffee</li>
+        <li>sugar</li>
+    </ul>
+    <h3>Ordered list</h3>
+    <ol style="list-style-type: decimal;">
+        <li>milk</li>
+        <li>coffee</li>
+        <li>sugar</li> 
+    </ol>
+    <ol style="list-style-type: decimal-leading-zero;">
+        <li>milk</li>
+        <li>coffee</li>
+        <li>sugar</li> 
+    </ol>
+    <ol style="list-style-type: lower-roman;">
+        <li>milk</li>
+        <li>coffee</li>
+        <li>sugar</li> 
+    </ol>
+    <ol style="list-style-type: upper-roman;">
+        <li>milk</li>
+        <li>coffee</li>
+        <li>sugar</li> 
+    </ol>
+    <ol style="list-style-type: upper-alpha;">
+        <li>milk</li>
+        <li>coffee</li>
+        <li>sugar</li> 
+    </ol>
+    <ol style="list-style-type: lower-alpha;">
+        <li>milk</li>
+        <li>coffee</li>
+        <li>sugar</li> 
+    </ol>
+    <h3>Nested Lists</h3>
+    <!-- Here using these existing tags we can make items nested in another item. To achieve that just need to insert the nested items inside the item that u wanted to be nested into. -->
+    <ol>
+        <li>pasta</li>
+        <li>cornflour</li>
+        <li>oil
+            <ul>
+                <li>Butter</li>
+                <li>Ghee</li>
+            </ul>
+        </li>
+        <li>Veggies</li>
+        <li>oregano</li>
+        <li>Cheese</li>
+    </ol>
+    <br>
+    <h2>Anchor Tag</h2>
+    <!-- anchor tags are used to anchor any web address to any word, or sentence or paragraph or img or heading. So when we click on that particular anchored element it will take u to the anchored web site. -->
+    <hr>
+    <p>See this <a href="https://cityofdesignwhanganui.nz/" target="_top">website</a> for design inspiration.</p>
+    <br>
+    <h2>Image Tag</h2>
+    <!-- image tags are used to insert images in it. -->
+    <hr>
+    <a href="https://www.zara.com/" target="_blank"><img src="./Black Puffer Jacket Display.jpeg" alt="img not rendered" height="300"></a>
+    <p>click the above image to buy it !!</p>
+    <br>
+    <h2>Formating Tags</h2>
+    <hr>
+    <ul>
+        <li><b>Bold Tag</b></li>
+        <li><strong>Strong Tag</strong></li>
+        <li><i>Italic tag</i></li>
+        <li><em>Emphasised tag</em></li>
+        <li><mark>Mark tag</mark></li>
+        <li><small>small tag</small></li>
+        <li><span style="color: blueviolet;">Span Tag</span></li>
+        <li><del>del tag</del></li>
+        <li><ins>ins tag(inserted text)</ins></li>
+        <li><sub>sub tag</sub></li>
+        <li><sup>suprior tag</sup></li>
+    </ul>
+    <br>
+    <h2>Table Tag</h2>
+    <hr>
+    <!-- table tags are used to represent the tables, firstly open the table tag and then write the tr tag(which represent the table row), inside the th tag to -->
+    <table border="5px" cellpadding="10" cellspacing="5">
+        <tr>
+            <th>Emp Name</th>
+            <th>Emp Role</th>
+            <th>Emp Age</th>
+        </tr>
+        <tr>
+            <td>Vishwesh</td>
+            <td>Backend</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Arun Kumar</td>
+            <td>Q&A</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Vignesh</td>
+            <td>Frontend</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Rajin</td>
+            <td>iOS Dev</td>
+            <td>21</td>
+        </tr>
+    </table>
+
+    <table border="5px" width="500px" height="300px">
+        <tr>
+            <th>Emp Name</th>
+            <th>Emp Role</th>
+            <th>Emp Age</th>
+        </tr>
+        <tr>
+            <td>Vishwesh</td>
+            <td>Backend</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Arun Kumar</td>
+            <td>Q&A</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Vignesh</td>
+            <td>Frontend</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Rajin</td>
+            <td>iOS Dev</td>
+            <td>21</td>
+        </tr>
+    </table>
+
+    <table border="5px" width="500px" align="center">
+        <tr>
+            <th>Emp Name</th>
+            <th>Emp Role</th>
+            <th>Emp Age</th>
+        </tr>
+        <tr>
+            <td valign="top">Vishwesh</td>
+            <td valign="middle">Backend</td>
+            <td valign="bottom">23</td>
+        </tr>
+        <tr>
+            <td valign="top">Arun Kumar</td>
+            <td valign="middle">Q&A</td>
+            <td valign="bottom">22</td>
+        </tr>
+        <tr>
+            <td valign="top">Vignesh</td>
+            <td valign="middle">Frontend</td>
+            <td valign="bottom">21</td>
+        </tr>
+        <tr>
+            <td valign="top">Rajin</td>
+            <td valign="middle">iOS Dev</td>
+            <td valign="bottom">21</td>
+        </tr>
+    </table>
+
+    <table border="5px">
+        <tr>
+            <th>Emp Name</th>
+            <th colspan="2">Job Details</th> <!-- Column span -->
+        </tr>
+        <tr>
+            <td rowspan="4">Employees</td> <!-- Row span -->
+            <td>Vishwesh</td>
+            <td>Backend</td>
+        </tr>
+        <tr>
+            <td>Arun Kumar</td>
+            <td>Q&A</td>
+        </tr>
+        <tr>
+            <td>Vignesh</td>
+            <td>Frontend</td>
+        </tr>
+        <tr>
+            <td>Rajin</td>
+            <td>iOS Dev</td>
+        </tr>
+    </table>
+
+    <table border="5px" bgcolor="lightgray" bordercolor="blue">
+        <tr>
+            <th bgcolor="yellow">Emp Name</th>
+            <th bgcolor="orange">Emp Role</th>
+            <th bgcolor="red">Emp Age</th>
+        </tr>
+        <tr>
+            <td>Vishwesh</td>
+            <td>Backend</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Arun Kumar</td>
+            <td>Q&A</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Vignesh</td>
+            <td>Frontend</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Rajin</td>
+            <td>iOS Dev</td>
+            <td>21</td>
+        </tr>
+    </table>
+
+    <table border="1px" style="border-collapse: collapse;">
+        <caption><b>Employee Information Table</b></caption>
+        <tr>
+            <th>Emp Name</th>
+            <th>Emp Role</th>
+            <th>Emp Age</th>
+        </tr>
+        <tr>
+            <td>Vishwesh</td>
+            <td>Backend</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Arun Kumar</td>
+            <td>Q&A</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Vignesh</td>
+            <td>Frontend</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Rajin</td>
+            <td>iOS Dev</td>
+            <td>21</td>
+        </tr>
+    </table>
+    
+    <br>
+    <h2>Form tags</h2>
+    <hr><br>
+    <form action="">
+        <fieldset>
+            <legend>Fill the details</legend>
+     <label for="firstName">First Name:</label>
+     <input type="text" name="firstName" id="firstName" placeholder="first name"><br>
+     <br>
+
+     <label for="LastName">Last Name:</label>
+     <input type="text" name="LastName" id="firstName" placeholder="Last name"><br>
+     <br>
+
+     <label for="email">Email:</label>
+     <input type="text" name="email" id="email" placeholder="xyz@gmail.com"><br>
+     <br>
+     <label for="Gender">Gender:</label><br><br>
+     <input type="radio" id="male" name="gender" value="male">
+     <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <br><br>
+    <label for="DOB">Date of Birth:</label>
+    <input type="date">
+    <br><br>
+    <label for="country">Nationality</label>
+    <select name="country" id="">
+        <option value="India">India</option>
+        <option value="India">India</option>
+        <option value="India">India</option>
+        <option value="India">India</option>
+    </select><br><br>
+
+    <textarea name="feedback" id="" maxlength="10">Feedback</textarea><br><br>
+
+    <input list="browsers" name="browser">
+<datalist id="browsers">
+  <option value="Chrome">
+  <option value="Firefox">
+  <option value="Safari">
+</datalist><br><br>
+
+<progress value="50" max="109"></progress><br><br>
+<meter value="100" min="0" max="200"></meter><br><br>
+<label for="phone">Phone Number: </label>
+<input type="tel" id="phone" name="phone" placeholder="0000000000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+    <button>Submit</button>
+     </fieldset>  
+    </form><br><br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JhlrWuNxuYE?si=FxLV1MQ6P731j1eD?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.3441344600797!2d80.21993717597513!3d13.013743687305471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x257e31d7c71a3a7%3A0xb5a14517f2be5790!2sRemitbee%20India%20Private%20Limited!5e0!3m2!1sen!2sin!4v1738145161884!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <audio controls src=""></audio>
+    <video controls src=""></video>
+    <canvas height="200px" width="100px"></canvas>
+    <nav class="navbar">
+        <div class="brandName">
+            <h1>Vishwesh</h1>
+        </div>
+            <ul class="menu">
+                <li>home</li>
+                <li>home</li>
+                <li>home</li>
+                <li>home</li>
+                <li>home</li>
+            </ul>
+        
+    </nav>
+</body>
+</html>
